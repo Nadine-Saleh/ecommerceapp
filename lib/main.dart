@@ -1,5 +1,5 @@
-import 'package:ecommerceapp/screens/homepage.dart';
 import 'package:flutter/material.dart';
+import 'package:shoppy/utils/theme/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,11 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const Homepage(),
+      theme: NAppTheme.LightTheme,
+      darkTheme: NAppTheme.DarkTheme,
     );
   }
 }
