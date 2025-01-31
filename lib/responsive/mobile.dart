@@ -6,7 +6,7 @@ class Mobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xF4F4F4),
+      backgroundColor: const Color(0x00f4f4f4),
       body: Column(
         children: [
           Padding(

@@ -4,25 +4,25 @@ class NCheckBoxTheme {
   NCheckBoxTheme._();
   static CheckboxThemeData lightcheckbox = CheckboxThemeData(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
-      checkColor: MaterialStateProperty.resolveWith((states) {
-        return states.contains(MaterialState.selected)
+      checkColor: WidgetStateProperty.resolveWith((states) {
+        return states.contains(WidgetState.selected)
             ? Colors.white
             : Colors.black;
       }),
-      fillColor: MaterialStateProperty.resolveWith((states) {
-        return states.contains(MaterialState.selected)
+      fillColor: WidgetStateProperty.resolveWith((states) {
+        return states.contains(WidgetState.selected)
             ? Colors.deepOrange[900]
             : Colors.transparent;
       }));
   static CheckboxThemeData darkcheckbox = CheckboxThemeData(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
-      checkColor: MaterialStateProperty.resolveWith((states) {
-        return states.contains(MaterialState.selected)
+      checkColor: WidgetStateProperty.resolveWith((states) {
+        return states.contains(WidgetState.selected)
             ? Colors.white
             : Colors.black;
       }),
-      fillColor: MaterialStateProperty.resolveWith((states) {
-        return states.contains(MaterialState.selected)
+      fillColor: WidgetStateProperty.resolveWith((states) {
+        return states.contains(WidgetState.selected)
             ? Colors.deepOrange[900]
             : Colors.transparent;
       }));

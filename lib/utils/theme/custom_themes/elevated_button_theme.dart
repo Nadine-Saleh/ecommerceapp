@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class NElevatedButtonTheme {
   NElevatedButtonTheme._();
 
-  static ElevatedButtonThemeData LightElevatedBtn = ElevatedButtonThemeData(
+  static ElevatedButtonThemeData lightElevatedBtn = ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
           backgroundColor: const Color.fromRGBO(191, 54, 12, 1),
           foregroundColor: Colors.deepOrange[50],
@@ -16,7 +16,7 @@ class NElevatedButtonTheme {
               fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(25))));
-  static ElevatedButtonThemeData DarkElevatedBtn = ElevatedButtonThemeData(
+  static ElevatedButtonThemeData darkElevatedBtn = ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
           backgroundColor: const Color.fromRGBO(191, 54, 12, 1),
           foregroundColor: const Color.fromARGB(255, 0, 0, 0),

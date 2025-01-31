@@ -9,27 +9,27 @@ import 'package:shoppy/utils/theme/custom_themes/text_theme.dart';
 
 class NAppTheme {
   NAppTheme._();
-  static ThemeData DarkTheme = ThemeData(
+  static ThemeData darkTheme = ThemeData(
       useMaterial3: true,
       fontFamily: 'poppins',
       brightness: Brightness.light,
       scaffoldBackgroundColor: const Color.fromARGB(255, 0, 0, 0),
       primaryColor: Colors.deepOrangeAccent,
       textTheme: NTextTheme.darkTextTheme,
-      elevatedButtonTheme: NElevatedButtonTheme.DarkElevatedBtn,
+      elevatedButtonTheme: NElevatedButtonTheme.darkElevatedBtn,
       appBarTheme: NAppBarTheme.darkAppBar,
       bottomSheetTheme: NBottomSheetTheme.darkBottomSheet,
       checkboxTheme: NCheckBoxTheme.darkcheckbox,
-      chipTheme: NChipTheme.DarkChip,
+      chipTheme: NChipTheme.darkChip,
       inputDecorationTheme: NTextfieldTheme.darkField);
-  static ThemeData LightTheme = ThemeData(
+  static ThemeData lightTheme = ThemeData(
       useMaterial3: true,
       fontFamily: 'poppins',
       brightness: Brightness.light,
       scaffoldBackgroundColor: Colors.white,
       primaryColor: Colors.deepOrangeAccent,
       textTheme: NTextTheme.lightTextTheme,
-      elevatedButtonTheme: NElevatedButtonTheme.LightElevatedBtn,
+      elevatedButtonTheme: NElevatedButtonTheme.lightElevatedBtn,
       appBarTheme: NAppBarTheme.lightAppBar,
       bottomSheetTheme: NBottomSheetTheme.lightBottomSheet,
       checkboxTheme: NCheckBoxTheme.lightcheckbox,
