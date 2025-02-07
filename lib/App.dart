@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:shoppy/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:shoppy/utils/theme/theme.dart';
 
 class App extends StatelessWidget {
@@ -6,11 +8,12 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       themeMode: ThemeMode.system,
       theme: NAppTheme.lightTheme,
       darkTheme: NAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
+      home: Onboarding(),
     );
   }
 }

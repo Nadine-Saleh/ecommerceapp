@@ -5,9 +5,14 @@ import 'dart:io';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
-class DeviceUtils {
+class NDeviceUtils {
   static void hideKeyboard(BuildContext context) {
     FocusScope.of(context).requestFocus(FocusNode());
+  }
+
+//get bottom nav bar height
+  static double getBottomNavBarHeight() {
+    return kBottomNavigationBarHeight;
   }
 
   // Get screen width
@@ -70,6 +75,20 @@ class DeviceUtils {
   // Provide haptic feedback (vibration on user actions)
   static void provideHapticFeedback() {
     HapticFeedback.mediumImpact();
+  }
+
+  static getAppBarHeight(BuildContext context) {
+    // Get the platform's default AppBar height
+    final appBar = AppBar();
+    final appBarHeight = appBar.preferredSize.height;
+
+    // Adjust for platform-specific differences (e.g., iOS has a taller AppBar)
+    final platform = Theme.of(context).platform;
+    if (platform == TargetPlatform.iOS) {
+      return appBarHeight + MediaQuery.of(context).padding.top;
+    } else {
+      return appBarHeight;
+    }
   }
 }
 

@@ -5,4 +5,9 @@ class NImages {
   //social logos
   static const String google = '';
   static const String facebook = '';
+  //onboarding
+  static const String onboarding1 =
+      'assets/images/onboarding_images/mobile.gif';
+  static const String onboarding2 = 'assets/images/onboarding_images/cart.gif';
+  static const String onboarding3 = 'assets/images/onboarding_images/bag.gif';
 }
