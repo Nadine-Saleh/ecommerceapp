@@ -10,6 +10,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: NAppTheme.lightTheme,
       darkTheme: NAppTheme.darkTheme,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
