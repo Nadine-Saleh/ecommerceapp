@@ -24,13 +24,13 @@ class NSizes {
   static const double buttonWidth = 120.0;
   static const double buttonElevation = 4.0;
   //Apbar height
-  static const double appBarHeight = 56.0;
+  static const double appBarHeight = 50.0;
   //image size
   static const double imageThumbsize = 80.0;
   //default spacing between sections
   static const double defaultSpace = 24.0;
   static const double spaceBtwItems = 16.0;
-  static const double spaceBtwSections = 32.0;
+  static const double spaceBtwSections = 25.0;
 
   //Border radius
   static const double borderRadiusSm = 4.0;

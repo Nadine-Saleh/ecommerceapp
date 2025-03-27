@@ -1,10 +1,10 @@
 class NImages {
   //App logos
-  static const String darkAppLogo = 'assets/logos/logo (3).png';
-  static const String lightAppLogo = 'assets/logos/logo (3).png';
+  static const String darkAppLogo = 'assets/logos/logo.png';
+  static const String lightAppLogo = 'assets/logos/logo.png';
   //social logos
-  static const String google = '';
-  static const String facebook = '';
+  static const String google = 'assets/images/google.png';
+  static const String facebook = 'assets/images/facebook.png';
   //onboarding
   static const String onboarding1 =
       'assets/images/onboarding_images/mobile.gif';

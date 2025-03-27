@@ -11,7 +11,7 @@ class NAppTheme {
   NAppTheme._();
   static ThemeData darkTheme = ThemeData(
       useMaterial3: true,
-      fontFamily: 'poppins',
+      fontFamily: 'Poppins',
       brightness: Brightness.light,
       scaffoldBackgroundColor: const Color.fromARGB(255, 0, 0, 0),
       primaryColor: Colors.deepOrangeAccent,
@@ -24,7 +24,7 @@ class NAppTheme {
       inputDecorationTheme: NTextfieldTheme.darkField);
   static ThemeData lightTheme = ThemeData(
       useMaterial3: true,
-      fontFamily: 'poppins',
+      fontFamily: 'Poppins',
       brightness: Brightness.light,
       scaffoldBackgroundColor: Colors.white,
       primaryColor: Colors.deepOrangeAccent,
