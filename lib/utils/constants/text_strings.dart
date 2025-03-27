@@ -1,6 +1,8 @@
 class Ntexts {
   // -- GLOBAL Texts
   // -- Onboarding Texts
+  static const String loginTitle1 = "welcome to our app";
+  static const String loginSubTitle1 = "please fill the login info";
   static const String onboardingTitle1 = "Choose your product";
   static const String onboardingTitle2 = "Select Payment Method";
   static const String onboardingTitle3 = "Deliver at your door step";
@@ -13,4 +15,12 @@ class Ntexts {
   // -- Home
   static const String homeAppbarTitle = "Good day for shopping";
   static const String homeAppbarSubTitle = "Nadine";
+  //authentication form text
+  static const String Email = "E-mail";
+  static const String password = "Password";
+  static const String rememberMe = "Remember me";
+  static const String forgetPassword = "Forgot Password?";
+  static const String signIn = "Sign In";
+  static const String createAccount = "Create Account";
+  static const String orSignInWith = "or sign in with";
 }
