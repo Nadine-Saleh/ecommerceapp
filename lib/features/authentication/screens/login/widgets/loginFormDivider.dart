@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:shoppy/utils/constants/colors.dart';
-import 'package:shoppy/utils/constants/text_strings.dart';
+import 'package:shoppy/utils/device/device_utils.dart';
 
 class loginFormDivider extends StatelessWidget {
-  const loginFormDivider(
-      {super.key, required this.dark, required this.dividerText});
+  const loginFormDivider({super.key, required this.dividerText});
 
-  final bool dark;
   final String dividerText;
 
   @override
   Widget build(BuildContext context) {
+    final dark = NDeviceUtils.isDarkMode(context);
+
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
