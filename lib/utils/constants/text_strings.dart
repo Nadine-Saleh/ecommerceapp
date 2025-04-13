@@ -2,6 +2,7 @@ class Ntexts {
   // -- GLOBAL Texts
   // -- Onboarding Texts
   static const String loginTitle1 = "welcome to our app";
+  static const String signupTitle = "Let's create your account";
   static const String loginSubTitle1 = "please fill the login info";
   static const String onboardingTitle1 = "Choose your product";
   static const String onboardingTitle2 = "Select Payment Method";
@@ -23,4 +24,13 @@ class Ntexts {
   static const String signIn = "Sign In";
   static const String createAccount = "Create Account";
   static const String orSignInWith = "or sign in with";
+  static const String orSignUpWith = "or sign up with";
+  static const String firstName = "First Name";
+  static const String lastName = "Last Name";
+  static const String userName = "username";
+  static const String phone = "Phone number";
+  static const String iagreeTo = "I agree to ";
+  static const String privacyPolicy = "privacy policy";
+  static const String and = " and ";
+  static const String termsOfUse = "terms of use";
 }
