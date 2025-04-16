@@ -28,7 +28,7 @@ class login extends StatelessWidget {
               const LoginForm(),
 
               //divider
-              loginFormDivider(
+              LoginFormDivider(
                 dividerText: Ntexts.orSignInWith.capitalize!,
               ),
               const SizedBox(

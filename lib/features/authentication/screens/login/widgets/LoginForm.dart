@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:shoppy/features/authentication/screens/signup/Signup.dart';
+import 'package:shoppy/features/authentication/screens/password_configuration/Forgot_password.dart';
+import 'package:shoppy/features/authentication/screens/signup/signup.dart';
 import 'package:shoppy/utils/constants/colors.dart';
 import 'package:shoppy/utils/constants/sizes.dart';
 import 'package:shoppy/utils/constants/text_strings.dart';
@@ -49,7 +50,7 @@ class LoginForm extends StatelessWidget {
               ),
               //forget password
               TextButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => const ForgotPassword()),
                 child: const Text(
                   Ntexts.forgetPassword,
                   style: TextStyle(color: NColors.buttonPrimary),

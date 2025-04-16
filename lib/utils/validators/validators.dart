@@ -5,7 +5,8 @@ class NValidator {
     }
 
     // Regular expression for email validation
-    final emailRegExp = RegExp(r'^([w-\\_]+@([w-]+\.).)+[w-](2,4)$');
+    final emailRegExp =
+        RegExp(r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$');
 
     if (!emailRegExp.hasMatch(value)) {
       return 'Invalid email address.';

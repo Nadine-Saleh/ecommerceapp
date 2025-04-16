@@ -12,4 +12,6 @@ class NImages {
   static const String onboarding3 = 'assets/images/onboarding_images/bag.gif';
   //success
   static const String success = 'assets/images/success.gif';
+  //sent email
+  static const String sentEmail = 'assets/images/sent.gif';
 }

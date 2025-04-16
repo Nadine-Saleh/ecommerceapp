@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shoppy/App.dart';
+import 'package:shoppy/app.dart';
 
 void main() {
   runApp(const App());

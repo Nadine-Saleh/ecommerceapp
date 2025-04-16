@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shoppy/utils/constants/colors.dart';
 
 class NTextfieldTheme {
   NTextfieldTheme._();

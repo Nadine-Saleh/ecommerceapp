@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:shoppy/utils/constants/colors.dart';
 import 'package:shoppy/utils/device/device_utils.dart';
 
-class loginFormDivider extends StatelessWidget {
-  const loginFormDivider({super.key, required this.dividerText});
+class LoginFormDivider extends StatelessWidget {
+  const LoginFormDivider({super.key, required this.dividerText});
 
   final String dividerText;
 

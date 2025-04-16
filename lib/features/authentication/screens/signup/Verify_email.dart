@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shoppy/common/widgets/success_screen/Success_screen.dart';
+import 'package:shoppy/common/widgets/success_screen/success_screen.dart';
 import 'package:shoppy/features/authentication/screens/login/login.dart';
 import 'package:shoppy/utils/constants/image_strings.dart';
 import 'package:shoppy/utils/constants/sizes.dart';
@@ -17,19 +17,19 @@ class VerifyEmailScreen extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-            onPressed: () => Get.offAll(() => login()),
+            onPressed: () => Get.offAll(() => const login()),
             icon: const Icon(CupertinoIcons.clear),
           ),
         ],
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(NSizes.defaultSpace),
+          padding: const EdgeInsets.all(NSizes.defaultSpace),
           child: Column(
             children: [
               // Image
               Image(
-                image: AssetImage(NImages.onboarding1),
+                image: const AssetImage(NImages.onboarding1),
                 width: NDeviceUtils.getScreenWidth(context) * 0.6,
               ),
               const SizedBox(height: NSizes.spaceBtwItems),

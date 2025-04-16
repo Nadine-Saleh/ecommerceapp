@@ -5,7 +5,6 @@ import 'package:shoppy/features/authentication/screens/signup/Verify_email.dart'
 import 'package:shoppy/features/authentication/screens/signup/signupWedgets/NtermsAndConditionsCheckbox.dart';
 import 'package:shoppy/utils/constants/sizes.dart';
 import 'package:shoppy/utils/constants/text_strings.dart';
-import 'package:shoppy/utils/device/device_utils.dart';
 
 class Nsignup_form extends StatelessWidget {
   const Nsignup_form({
@@ -14,8 +13,6 @@ class Nsignup_form extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = NDeviceUtils.isDarkMode(context);
-
     return Form(
         child: Column(
       children: [

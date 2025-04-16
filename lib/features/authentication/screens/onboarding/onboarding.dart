@@ -22,17 +22,17 @@ class Onboarding extends StatelessWidget {
             controller: controller.pagecontroller,
             onPageChanged: controller.updatePageIndicator,
             children: const [
-              onboardingPage(
+              OnBoardingPage(
                 image: NImages.onboarding1,
                 title: Ntexts.onboardingTitle1,
                 subtitle: Ntexts.onboardingSubTitle1,
               ),
-              onboardingPage(
+              OnBoardingPage(
                 image: NImages.onboarding2,
                 title: Ntexts.onboardingTitle2,
                 subtitle: Ntexts.onboardingSubTitle2,
               ),
-              onboardingPage(
+              OnBoardingPage(
                 image: NImages.onboarding3,
                 title: Ntexts.onboardingTitle3,
                 subtitle: Ntexts.onboardingSubTitle3,

@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:shoppy/utils/constants/colors.dart';
 import 'package:shoppy/utils/theme/custom_themes/appBar_theme.dart';
 import 'package:shoppy/utils/theme/custom_themes/bottom_sheet_theme.dart';
-import 'package:shoppy/utils/theme/custom_themes/checkBox_theme.dart';
+import 'package:shoppy/utils/theme/custom_themes/checkbox_theme.dart';
 import 'package:shoppy/utils/theme/custom_themes/chip_theme.dart';
 import 'package:shoppy/utils/theme/custom_themes/elevated_button_theme.dart';
-import 'package:shoppy/utils/theme/custom_themes/textField_theme.dart';
+import 'package:shoppy/utils/theme/custom_themes/text_field_theme.dart';
 import 'package:shoppy/utils/theme/custom_themes/text_theme.dart';
 
 class NAppTheme {
