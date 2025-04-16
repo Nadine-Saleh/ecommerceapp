@@ -42,7 +42,7 @@ class Onboarding extends StatelessWidget {
           //skip button
           const onboarding_skip(),
           //smooth indicator
-          onboarding_dot_navigation(),
+          const onboarding_dot_navigation(),
           //circular button
           const onboarding_nextbtn()
         ],
