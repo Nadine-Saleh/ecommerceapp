@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shoppy/common/widgets/success_screen/Success_screen.dart';
+import 'package:shoppy/common/widgets/success_screen/success_screen.dart';
 import 'package:shoppy/features/authentication/screens/login/login.dart';
 import 'package:shoppy/utils/constants/image_strings.dart';
 import 'package:shoppy/utils/constants/sizes.dart';

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:shoppy/utils/constants/sizes.dart';
 import 'package:shoppy/utils/device/device_utils.dart';
 
-class onboardingPage extends StatelessWidget {
-  const onboardingPage({
+class OnBoardingPage extends StatelessWidget {
+  const OnBoardingPage({
     super.key,
     required this.image,
     required this.title,
