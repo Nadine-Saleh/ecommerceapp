@@ -10,4 +10,6 @@ class NImages {
       'assets/images/onboarding_images/mobile.gif';
   static const String onboarding2 = 'assets/images/onboarding_images/cart.gif';
   static const String onboarding3 = 'assets/images/onboarding_images/bag.gif';
+  //success
+  static const String success = 'assets/images/success.gif';
 }

@@ -33,4 +33,13 @@ class Ntexts {
   static const String privacyPolicy = "privacy policy";
   static const String and = " and ";
   static const String termsOfUse = "terms of use";
+  static const String verifyEmail = "Verify your Email address!";
+  static const String verifyEmailSubtitle =
+      "We have sent a verification code to your email address";
+  static const String Ncontinue = "Continue";
+  static const String resendEmail = "Resend Email";
+  static const String yourAccountCreatedtitle =
+      "Your Account Created Successfully";
+  static const String yourAccountCreatedSubtitle =
+      "Your account has been created successfully";
 }
