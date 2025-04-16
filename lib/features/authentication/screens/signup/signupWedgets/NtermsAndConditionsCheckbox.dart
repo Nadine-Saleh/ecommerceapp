@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:shoppy/utils/constants/colors.dart';
 import 'package:shoppy/utils/constants/text_strings.dart';

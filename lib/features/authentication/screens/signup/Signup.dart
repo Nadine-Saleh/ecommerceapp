@@ -33,7 +33,7 @@ class Signup extends StatelessWidget {
               ),
 
               //form
-              Nsignup_form(),
+              const Nsignup_form(),
               const SizedBox(
                 height: NSizes.spaceBtwSections,
               ),
@@ -46,7 +46,7 @@ class Signup extends StatelessWidget {
               const SizedBox(
                 height: NSizes.spaceBtwSections,
               ),
-              SocialButtons(),
+              const SocialButtons(),
             ],
           ),
         ),

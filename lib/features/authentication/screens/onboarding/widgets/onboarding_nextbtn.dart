@@ -15,7 +15,7 @@ class onboarding_nextbtn extends StatelessWidget {
         right: NSizes.defaultSpace,
         bottom: NDeviceUtils.getBottomNavBarHeight(),
         child: ElevatedButton(
-            style: ElevatedButton.styleFrom(shape: CircleBorder()),
+            style: ElevatedButton.styleFrom(shape: const CircleBorder()),
             onPressed: () => OnboardingController.instance.nextPage(),
             child: const Icon(Iconsax.arrow_right_3)));
   }

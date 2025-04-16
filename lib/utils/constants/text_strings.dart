@@ -42,4 +42,12 @@ class Ntexts {
       "Your Account Created Successfully";
   static const String yourAccountCreatedSubtitle =
       "Your account has been created successfully";
+  static const String forgotPasswordTitle = "Forgot Password";
+  static const String forgotPasswordSubtitle =
+      "Don't worry sometimes people can forget too, enter your email and we will send you a password reset link.";
+  static const String submit = "Submit";
+  static const String resetPasswordTitle = "Password reset E-mail sent";
+  static const String resetPasswordSubtitle =
+      "We have sent a password reset link to your email address";
+  static const String done = "Done";
 }

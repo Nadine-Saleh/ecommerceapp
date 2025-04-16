@@ -17,19 +17,19 @@ class VerifyEmailScreen extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-            onPressed: () => Get.offAll(() => login()),
+            onPressed: () => Get.offAll(() => const login()),
             icon: const Icon(CupertinoIcons.clear),
           ),
         ],
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(NSizes.defaultSpace),
+          padding: const EdgeInsets.all(NSizes.defaultSpace),
           child: Column(
             children: [
               // Image
               Image(
-                image: AssetImage(NImages.onboarding1),
+                image: const AssetImage(NImages.onboarding1),
                 width: NDeviceUtils.getScreenWidth(context) * 0.6,
               ),
               const SizedBox(height: NSizes.spaceBtwItems),

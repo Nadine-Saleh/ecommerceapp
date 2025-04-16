@@ -6,7 +6,7 @@ import 'package:shoppy/utils/device/device_utils.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class onboarding_dot_navigation extends StatelessWidget {
-  onboarding_dot_navigation({
+  const onboarding_dot_navigation({
     super.key,
   });
   @override
