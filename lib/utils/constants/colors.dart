@@ -5,7 +5,7 @@ class NColors {
 
 //App basic colors
   static const Color primary = Color(0xffE64A19);
-  static const Color secondary = Color(0xffFFCCBC);
+  static const Color secondary = Color.fromARGB(255, 255, 251, 250);
   static const Color accent = Color(0xff9E9E9E);
 
   //text colors
@@ -14,7 +14,7 @@ class NColors {
   static const Color textWhite = Colors.white;
 
   //background colors
-  static const Color light = Color(0xffffedd5);
+  static const Color light = Color.fromARGB(255, 252, 249, 246);
   static const Color dark = Color(0xff272727);
   static const Color primaryBackgroud = Color.fromARGB(255, 248, 237, 223);
 
