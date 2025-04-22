@@ -12,14 +12,20 @@ class onboarding_skip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final dark = NDeviceUtils.isDarkMode(context);
-    return Positioned(
-        top: NDeviceUtils.getAppBarHeight(context),
-        right: NSizes.defaultSpace,
-        child: TextButton(
+    return Stack(
+      children: [
+        Positioned(
+          top: NDeviceUtils.getAppBarHeight(),
+          right: NSizes.defaultSpace,
+          child: TextButton(
             onPressed: () => OnboardingController.instance.skipPage(),
             child: Text(
               'Skip',
               style: TextStyle(color: dark ? NColors.light : NColors.dark),
-            )));
+            ),
+          ),
+        ),
+      ],
+    );
   }
 }
